@@ -1,0 +1,40 @@
+/* Container que habilita o layout de colunas */
+.section-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Estilo para a linha divisória */
+.divider {
+    border: none;
+    border-top: 1px solid #ffffff;
+    margin: 40px 0; /* Adiciona espaço acima e abaixo da linha */
+}
+
+/* Estilos de texto (opcional, mas recomendado) */
+.main-title {
+    text-align: left;
+}
+
+.section-title {
+    text-align: left;
+}
+
+.section-text {
+    text-align: left;
+}
+.image-style {
+    width: 20%;
+    height: auto;
+    border-radius: 8px; /* Adiciona cantos arredondados às imagens */
+}
+/* Adicione esta nova classe ao seu CSS */
+.media-content {
+    display: flex;        /* Habilita o Flexbox */
+    align-items: center;  /* Alinha os itens verticalmente ao centro */
+    gap: 20px;            /* Adiciona um espaço de 20px entre a imagem e o texto */
+    margin-bottom: 30px;  /* Espaço abaixo de cada bloco */
+}
+body {
+    background-color: #92ff7c; /* Use o código da cor que você quiser */
+}

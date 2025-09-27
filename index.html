@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pessoas com deficiencia visual</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <div class="section-container">
+        <div class="section-item">
+            <h1 class="main-title">&nbsp;&nbsp;&nbsp;Deficiência Visual</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <div class="section-item">
+            <h2 class="section-title">Dia internacional</h2>
+            <p class="section-text">Dia 03 de Dezembro é o dia internacional do deficiente visual</p>
+            <h2 class="selection-title">Lutas sobre a Deficiência</h2>
+            <p class="section-text">Fale sobre as lutas sobre a deficiência visual</p>
+        </div>
+        <div class="section-item">
+            <h2 class="section-title">Inclusão social</h2>
+            <p class="section-text">Fale um pouco sobre a inclusão social.</p>
+        </div>
+    </div>
+    <hr class="divider">
+            <audio id="audio1" src="audio1.mp3"></audio>
+<audio id="audio2" src="audio2.mp3"></audio>
+
+<div class="section-container">
+    <div class="section-item">
+        <h1 class="main-title">Título</h1>
+        <p class="section-text">Introdução sobre a deficiência Visual</p>
+    </div>
+    <div>
+        <button class="btn-round" onclick="tocarAudio1()">Botão 1</button>
+    </div>
+    <div>
+        <button class="btn-round" onclick="tocarAudio2()">Botão 2</button>
+    </div>
+</div>
+
+<script>
+    function tocarAudio1() {
+        const audio = document.getElementById('audio1');
+        audio.play();
+    }
+
+    function tocarAudio2() {
+        const audio = document.getElementById('audio2');
+        audio.play();
+    }
+</script>
+</div>
+    <hr class="divider">
+    <div class="section-container-columns">
+        <div class="media-content">
+            <img src="alfabeto.jpg" alt="Imagem de um alfabeto em braile" class="image-style">
+            <div>
+                <h2 class="section-title">Alfabeto em Braile</h2>
+                <p class="section-text">Texto sobre o braile e sua importância.</p>
+            </div>
+        </div>
+        <div class="media-content">
+            <img src="cores.jpg" alt="Imagem de bengalas de diferentes cores" class="image-style">
+            <div>
+                <h2 class="section-title">Cores das bengalas</h2>
+                <p class="section-text">Saiba o significado das cores das bengalas</p>
+            </div>
+        </div>
+        <div class="media-content">
+            <img src="cao.jpg" alt="Imagem de um cão guia" class="image-style">
+            <div>
+                <h2 class="section-title">Cão guia</h2>
+                <p class="section-text">Não mexa no cão guia</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
